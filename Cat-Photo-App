@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>CatPhotoApp</title>
+</head>
+<body>
+<h1>CatPhotoApp</h1>
+<main>
+<section>
+<h2>Cat Photos</h2>
+<p>See more <a href="https://freecatphotoapp.com/" target="_blank">cat photos</a> in our gallery.</p>
+<a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"></img></a>
+</section>
+
+<section>
+<h2>Cat Lists</h2>
+<h2>Things cats love:</h2>
+<ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagna</li>
+<figure>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"></img>
+<figcaption>Cats <em>love</em> lasagna.</figcaption>
+</figure>
+
+</ul>
+
+<h2>Top 3 things cats hate:</h2>
+<ol>
+<li>flea treatment</li>
+<li>thunder</li>
+<li>other cats</li>
+</ol>
+<figure>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"></img>
+<figcaption>Cats <b>hate</b> other cats.</figcaption>
+</figure>
+</section>
+<section>
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+<fieldset>
+<legend>Is your cat an indoor or outdoor cat?</legend>
+
+<label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked/>Indoor</lable>
+
+<label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"/>Outdoor</label>
+</fieldset>
+
+<fieldset>
+<legend>What's your cat's personality?</legend>
+
+<label><input type="checkbox" id="loving" name="cat-personality" value="Loving" checked/>Loving</label>           
+<label><input type="checkbox" id="lazy" name="cat-personality" value="Lazy"/>Lazy</label>
+<label><input type="checkbox" id="energetic" name="cat-personality" value="Energetic" />Energetic</label>
+</fieldset>
+<input type="url" name="catPhotoURl" placeholder="cat Photo URL"/>
+<button>Submit</button>
+<form>        
+</section>
+</main>
+</body>
+<footer>No Copyright - <a href="https://freecatphotoapp.com/" target="_blank">freeCodeCamp.org </a>
+</footer>
+</html>
